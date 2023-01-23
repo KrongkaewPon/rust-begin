@@ -1,0 +1,6 @@
+[package]
+name = "Facebook"
+version = "0.1.0"
+authors = ["Diwakar"]
+
+[dependencies]

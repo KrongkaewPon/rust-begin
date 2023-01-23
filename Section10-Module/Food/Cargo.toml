@@ -1,0 +1,6 @@
+[package]
+name = "Food"
+version = "0.1.0"
+authors = ["Diwakar"]
+
+[dependencies]
