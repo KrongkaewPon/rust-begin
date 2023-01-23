@@ -1,13 +1,9 @@
 fn main() {
     let s = String::from("Hello");
-    let r = world(&s);
+    let r = word(&s);
     println!("{}", r);
 }
 
-// fn word(s: &str) -> &str {
-//     s
-// }
-
-fn word<'a>(x: &str) -> &str {
+fn word(x: &str) -> &str {
     x
 }
