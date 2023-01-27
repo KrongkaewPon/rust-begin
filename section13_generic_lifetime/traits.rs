@@ -6,6 +6,7 @@ trait Summary {
 
     fn summarize_auth(&self) -> String;
 }
+
 struct NewsArticle {
     headline: String,
     location: String,
