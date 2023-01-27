@@ -24,7 +24,7 @@ pub mod kinds {
 pub mod utils {
     use crate::kinds::{PrimaryColor, SecondaryColor};
 
-    /// Combines two primary colors in equal amount to create ///a secondary color.
+    ///Combines two primary colors in equal amount to create ///a secondary color.
     pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> SecondaryColor {
         //
     }
