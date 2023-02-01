@@ -1,10 +1,9 @@
 use std::sync::{Arc, Mutex};
 use std::thread;
-static mut SEAT: i32 = 2;
+static mut SEAT: i32 = 1;
 
 fn cab(name: &str) {
     unsafe {
-        println!("======= ");
         if SEAT >= 1 {
             println!("Cab Available for {}", name);
             println!("Booking Confirmed");
